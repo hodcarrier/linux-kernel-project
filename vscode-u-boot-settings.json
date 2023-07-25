@@ -1,0 +1,33 @@
+{
+    "C_Cpp.default.intelliSenseMode": "gcc-arm",
+    "C_Cpp.default.systemIncludePath": [
+        "${workspaceFolder}/arch/mips/include/uapi",
+        "${workspaceFolder}/arch/mips/include/generated/uapi",
+        "${workspaceFolder}/include/uapi",
+        "${workspaceFolder}/include/generated/uapi",
+        "${workspaceFolder}/arch/mips/include",
+        "${workspaceFolder}/arch/mips/include/generated",
+        "${workspaceFolder}/include "
+    ],
+    "C_Cpp.default.compilerPath": "C:\\SysGCC\\arm-eabi",
+
+    "C_Cpp.default.defines": [
+        "__linux__",
+        "linux",
+        "__STDC__",
+        "unix",
+        "__unix__"
+    ],
+    "C_Cpp.default.forcedInclude": [
+        "${workspaceFolder}/include/linux/kconfig.h",
+        "${workspaceFolder}/include/linux/compiler-version.h"
+    ],
+    "files.exclude": {
+        "**/*.o": true,
+        "**/*.a": true,
+        "**/*.cmd": true,
+        "**/*.d": true,
+        "**/modules.order": true
+    },
+    "editor.tabSize": 8
+}
