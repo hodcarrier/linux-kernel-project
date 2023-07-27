@@ -1,0 +1,7 @@
+<!DOCTYPE Workspace SYSTEM "http://www.slickedit.com/dtd/vse/10.0/vpw.dtd">
+<Workspace Version="10.0" VendorName="SlickEdit" TagFileDir="c:\sledata\">
+	<Projects>
+		<Project File="linux.vpj"/>
+		<Project File="u-boot.vpj"/>
+	</Projects>
+</Workspace>
