@@ -98,6 +98,14 @@
 				SaveOption="SaveCurrent">
 				<Exec CmdLine='ssh duhuanpeng@192.168.1.251 "cd ~/read-the-fucking-source-code/u-boot &amp;&amp; export PATH=$PATH:/home/duhuanpeng/opt/gcc13/loongarch64-linux/bin/ &amp;&amp; make V=1 ARCH=loongarch CROSS_COMPILE=loongarch64-linux-"'/>
 			</Target>
+			<Target
+				Name="Build-ARM"
+				MenuCaption="Build-ARM"
+				RunFromDir="%rw"
+				CaptureOutputWith="ProcessBuffer"
+				SaveOption="SaveCurrent">
+				<Exec CmdLine='ssh "duhuanpeng@b1ack cd ~/read-the-fucking-source-code/ &amp;&amp; V=1 source setenv.sh"'/>
+			</Target>
 		</Menu>
 		<Rules Name="Compile">
 			<Rule
@@ -230,6 +238,14 @@
 				CaptureOutputWith="ProcessBuffer"
 				SaveOption="SaveCurrent">
 				<Exec CmdLine='ssh duhuanpeng@192.168.1.251 "cd ~/read-the-fucking-source-code/u-boot &amp;&amp; export PATH=$PATH:/home/duhuanpeng/opt/gcc13/loongarch64-linux/bin/ &amp;&amp; make V=1 ARCH=loongarch CROSS_COMPILE=loongarch64-linux-"'/>
+			</Target>
+			<Target
+				Name="Build-ARM"
+				MenuCaption="Build-ARM"
+				RunFromDir="%rw"
+				CaptureOutputWith="ProcessBuffer"
+				SaveOption="SaveCurrent">
+				<Exec CmdLine='ssh "duhuanpeng@b1ack cd ~/read-the-fucking-source-code/ &amp;&amp; V=1 source setenv.sh"'/>
 			</Target>
 		</Menu>
 		<Rules Name="Compile">
