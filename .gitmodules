@@ -4,3 +4,6 @@
 [submodule "u-boot"]
 	path = u-boot
 	url = https://github.com/u-boot/u-boot.git
+[submodule "barebox"]
+	path = barebox
+	url = https://gitee.com/barebox/barebox.git
